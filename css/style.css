@@ -1,0 +1,3128 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+header > div {
+  height: 90px;
+  align-items: center;
+}
+header > div > svg {
+  padding-left: 16px;
+}
+header .burger {
+  display: none;
+}
+header .header__right-side {
+  gap: 32px;
+  padding-right: 4px;
+}
+header .header__right-side .right-side__list {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+  padding-left: 0px;
+}
+header .header__right-side .right-side__list .list__li:hover {
+  cursor: pointer;
+}
+header .header__right-side .right-side__list .list__li__second {
+  position: relative;
+  left: 4px;
+}
+header .header__right-side .right-side__list .list__li__first {
+  padding-right: 24px;
+  padding-top: 3px;
+}
+header .header__right-side li {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+}
+header .header__right-side button {
+  height: 44px;
+  width: 157px;
+  border-radius: 14px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+header .header__right-side button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  transition: 0.3s;
+  border: 1px solid #ffffff;
+}
+header .header__right-side .list__li__first {
+  font-size: 13px;
+}
+header .header__right-side a {
+  text-decoration: none;
+  color: #000;
+}
+header .header__right-side a:hover {
+  color: white;
+}
+
+.aperture-studios {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url(../pictures/background.png);
+  padding-top: 430px;
+  padding-bottom: 41px;
+  background-size: cover;
+}
+.aperture-studios > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aperture-studios__text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+  text-align: center;
+  width: 600px;
+  padding: 20px 10px 10px;
+}
+.aperture-studios__text p {
+  margin: 0;
+}
+.aperture-studios__text .text__explanation {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+}
+.aperture-studios__text h1 {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  font-size: 54px;
+  padding-bottom: 7px;
+}
+.aperture-studios__features {
+  padding-top: 2px;
+  display: flex;
+  width: 1168px;
+  justify-content: flex-end;
+  position: relative;
+  left: 96px;
+  gap: 18px;
+}
+.aperture-studios__features > div {
+  display: flex;
+  vertical-align: top;
+}
+.aperture-studios__features p {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  font-size: 12px;
+  padding-left: 6px;
+  position: relative;
+  bottom: 5px;
+}
+
+.what-we-do {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.what-we-do > div {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.what-we-do h2 {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
+.what-we-do__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.what-we-do__heading p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+  font-size: 23px;
+  position: relative;
+  top: 3px;
+}
+.what-we-do__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1216px;
+  justify-content: space-between;
+}
+.what-we-do__blocks > div {
+  width: 576px;
+  height: 600px;
+}
+.what-we-do__blocks .blocks__product {
+  background-image: url(../pictures/section2__first_block.png);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+.what-we-do__blocks .blocks__product p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.what-we-do__blocks .blocks__product .product__header {
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+}
+.what-we-do__blocks .blocks__product .product__paragraph {
+  padding-bottom: 15px;
+}
+.what-we-do__blocks .blocks__product button {
+  width: 144px;
+  height: 44px;
+  border-radius: 14px;
+  color: black;
+  align-self: center;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px 5px 4px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  border: #C0C0C0;
+}
+.what-we-do__blocks .blocks__product button:hover {
+  cursor: pointer;
+}
+.what-we-do__blocks .blocks__product > div {
+  padding: 0 30px 28px 30px;
+}
+.what-we-do__blocks .blocks__architecture {
+  background-image: url(../pictures/section2__second_block.png);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+.what-we-do__blocks .blocks__architecture p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.what-we-do__blocks .blocks__architecture .architecture__header {
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+}
+.what-we-do__blocks .blocks__architecture .architecture__paragraph {
+  padding-bottom: 15px;
+}
+.what-we-do__blocks .blocks__architecture button {
+  width: 144px;
+  height: 44px;
+  border-radius: 14px;
+  color: black;
+  align-self: center;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px 5px 4px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  border: #C0C0C0;
+}
+.what-we-do__blocks .blocks__architecture button:hover {
+  cursor: pointer;
+}
+.what-we-do__blocks .blocks__architecture > div {
+  padding: 0 32px 28px 30px;
+}
+.what-we-do__blocks .blocks__drone {
+  background-image: url(../pictures/section2__third_block.png);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 16px;
+}
+.what-we-do__blocks .blocks__drone p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.what-we-do__blocks .blocks__drone .drone__header {
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+}
+.what-we-do__blocks .blocks__drone .drone__paragraph {
+  padding-bottom: 15px;
+}
+.what-we-do__blocks .blocks__drone button {
+  width: 144px;
+  height: 44px;
+  border-radius: 14px;
+  color: black;
+  align-self: center;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px 5px 4px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  border: #C0C0C0;
+}
+.what-we-do__blocks .blocks__drone button:hover {
+  cursor: pointer;
+}
+.what-we-do__blocks .blocks__drone > div {
+  padding: 0 30px 28px 30px;
+}
+.what-we-do__blocks .blocks__wild-life {
+  background-image: url(../pictures/section2__fourth_block.png);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 16px;
+}
+.what-we-do__blocks .blocks__wild-life p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.what-we-do__blocks .blocks__wild-life .wild-life__header {
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+}
+.what-we-do__blocks .blocks__wild-life .wild-life__paragraph {
+  padding-bottom: 15px;
+}
+.what-we-do__blocks .blocks__wild-life button {
+  width: 144px;
+  height: 44px;
+  border-radius: 14px;
+  color: black;
+  align-self: center;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px 5px 4px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  border: #C0C0C0;
+}
+.what-we-do__blocks .blocks__wild-life button:hover {
+  cursor: pointer;
+}
+.what-we-do__blocks .blocks__wild-life > div {
+  padding: 0 70px 28px 30px;
+}
+
+.sunset {
+  background-image: url(../pictures/section3.png);
+  background-size: cover;
+  height: 600px;
+}
+.sunset > div {
+  height: 600px;
+}
+.sunset__text {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: flex-end;
+  position: relative;
+  left: 84px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.sunset__text .text__heading {
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400px;
+}
+.sunset__text p {
+  margin: 0;
+}
+.sunset__features {
+  display: flex;
+  width: 1168px;
+  justify-content: flex-end;
+  position: relative;
+  left: 94px;
+  top: -56px;
+  gap: 18px;
+}
+.sunset__features > div {
+  display: flex;
+  vertical-align: top;
+}
+.sunset__features p {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  font-size: 12px;
+  padding-left: 6px;
+  position: relative;
+  bottom: 5px;
+}
+
+.tools {
+  height: 540px;
+}
+.tools .container {
+  height: 540px;
+}
+.tools .container > div {
+  width: 50%;
+}
+.tools .container > div .tools__text {
+  height: 540px;
+  width: 514;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  right: 36px;
+}
+.tools .container > div .tools__text p, .tools .container > div .tools__text h2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.tools .container > div .tools__text .text__explanation {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 21px;
+}
+.tools .container > div .tools__text .text__paragraph {
+  color: white;
+  padding-bottom: 15px;
+}
+.tools .container > div .tools__text button {
+  width: 144px;
+  height: 44px;
+  border-radius: 14px;
+  color: black;
+  align-self: center;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px 5px 4px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  border: #C0C0C0;
+  width: 154px;
+  padding-right: 13px;
+  font-size: 16px;
+  align-self: self-start;
+}
+.tools .container > div .tools__text button:hover {
+  cursor: pointer;
+}
+.tools .container > div .tools__text .text__heading {
+  color: white;
+  font-size: 28px;
+  padding-bottom: 7px;
+}
+.tools__right-side {
+  background-image: url(../pictures/section4.png);
+  background-position: center;
+  background-size: cover;
+  height: 540px;
+  position: relative;
+  width: 50%;
+  bottom: 540px;
+  left: 50%;
+  align-content: flex-end;
+}
+.tools__right-side .tools__features {
+  display: flex;
+  padding-left: 415px;
+  padding-bottom: 38px;
+  gap: 16px;
+}
+.tools__right-side .tools__features > div {
+  display: flex;
+  vertical-align: top;
+}
+.tools__right-side .tools__features p {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  font-size: 12px;
+  padding-left: 6px;
+  position: relative;
+  bottom: 5px;
+}
+
+.monstera {
+  height: 600px;
+  background-image: url(../pictures/section5.png);
+  background-size: cover;
+}
+.monstera > div {
+  height: 600px;
+}
+.monstera__text {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: flex-end;
+  width: 300px;
+  position: relative;
+  left: 76px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.monstera__text > p {
+  margin: 0;
+  padding-right: 27px;
+}
+.monstera__text .text__heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+.monstera__features {
+  display: flex;
+  gap: 18px;
+  position: relative;
+  left: 92px;
+  bottom: 56.4px;
+  justify-self: flex-end;
+}
+.monstera__features > div {
+  display: flex;
+  vertical-align: top;
+}
+.monstera__features p {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  font-size: 12px;
+  padding-left: 6px;
+  position: relative;
+  bottom: 5px;
+}
+
+.past-clients > div {
+  padding: 104px 120px 100.6px;
+}
+.past-clients > div .past-clients__text {
+  padding-bottom: 38px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.past-clients > div .past-clients__text > p {
+  margin: 0;
+  text-align: center;
+}
+.past-clients > div .past-clients__text .text__heading {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 3px;
+}
+.past-clients > div .past-clients__text .text__paragraph {
+  font-size: 24px;
+}
+.past-clients > div .past-clients__clients {
+  padding: 0 46px;
+  height: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star-fall {
+  background-image: url(../pictures/section7.png);
+  background-size: cover;
+  height: 600px;
+}
+.star-fall > div {
+  height: 600px;
+}
+.star-fall__text {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: flex-end;
+  width: 300px;
+  position: relative;
+  left: 76px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.star-fall__text > p {
+  margin: 0;
+  padding-right: 27px;
+}
+.star-fall__text .text__heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+.star-fall__features {
+  display: flex;
+  gap: 18px;
+  position: relative;
+  left: 99px;
+  bottom: 56.4px;
+  justify-self: flex-end;
+}
+.star-fall__features > div {
+  display: flex;
+  vertical-align: top;
+}
+.star-fall__features p {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  font-size: 12px;
+  padding-left: 6px;
+  position: relative;
+  bottom: 5px;
+}
+
+.need-help > div > div {
+  text-align: center;
+  padding: 113.6px 284px 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.need-help > div > div p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+.need-help > div > div .need-help__heading {
+  font-size: 40px;
+  line-height: 42px;
+  color: white;
+  padding-bottom: 11px;
+}
+.need-help > div > div .need-help__text {
+  font-size: 24px;
+  padding-bottom: 18px;
+}
+.need-help > div > div button {
+  width: 144px;
+  height: 44px;
+  border-radius: 14px;
+  color: black;
+  align-self: center;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px 5px 4px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  border: #C0C0C0;
+  width: 156px;
+  height: 44px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.need-help > div > div button:hover {
+  cursor: pointer;
+}
+
+footer > div > div {
+  padding: 90px 0;
+}
+footer > div > div .footer__aperture {
+  height: 200px;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+footer > div > div .footer__aperture .aperture__text {
+  width: 440px;
+}
+footer > div > div .footer__aperture .aperture__text > p {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+  font-size: 13px;
+}
+footer > div > div .footer__aperture ul {
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+  padding-left: 0;
+  color: white;
+}
+footer > div > div .footer__aperture ul li {
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+footer > div > div .footer__aperture ul .list__item__first {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+footer > div > div .footer__aperture ul .list__item__smaller {
+  font-size: 13px;
+}
+footer > div > div .footer__aperture .aperture__lists__first, footer > div > div .footer__aperture .aperture__lists__third {
+  width: 220.8px;
+}
+footer > div > div .footer__aperture .aperture__lists {
+  display: flex;
+}
+footer > div > div .footer__aperture .aperture__lists__first {
+  padding-right: 16px;
+}
+footer > div > div .footer__subscribe > div {
+  display: flex;
+  padding: 36px 0;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  align-items: center;
+}
+footer > div > div .footer__subscribe > div .subscribe__text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+  font-size: 13px;
+}
+footer > div > div .footer__subscribe > div .subscribe__text p {
+  margin: 0;
+}
+footer > div > div .footer__subscribe > div .subscribe__text .text__heading {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+footer > div > div .footer__subscribe > div .subscribe__form {
+  width: 459px;
+  position: relative;
+}
+footer > div > div .footer__subscribe > div .subscribe__form form {
+  margin: 0;
+}
+footer > div > div .footer__subscribe > div .subscribe__form input {
+  width: 100%;
+  height: 52px;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+}
+footer > div > div .footer__subscribe > div .subscribe__form .submit {
+  width: 63px;
+  height: 30px;
+  background: #000;
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  margin-top: -15px;
+  border-radius: 11px;
+}
+footer > div > div .footer__socials {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+footer > div > div .footer__socials > div {
+  display: flex;
+}
+footer > div > div .footer__socials > div p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #C0C0C0;
+  margin: 0;
+}
+footer > div > div .footer__socials .socials__icons {
+  gap: 22px;
+  padding-right: 8px;
+}
+footer > div > div .footer__socials span {
+  font-size: 13px;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1000px;
+  }
+  .header__right-side {
+    gap: 25px;
+  }
+  .header__right-side .right-side__list {
+    gap: 25px !important;
+  }
+  .header__right-side .right-side__list .list__li__first {
+    padding-right: 0 !important;
+  }
+  .aperture-studios {
+    padding-top: 350px;
+  }
+  .aperture-studios__text {
+    padding-bottom: 25px;
+  }
+  .aperture-studios__features {
+    width: 950px;
+  }
+  .what-we-do__blocks {
+    height: 1040px;
+  }
+  .what-we-do__blocks > div {
+    width: 492px;
+    height: 512px;
+  }
+  .sunset__text {
+    left: 70px;
+  }
+  .sunset__features {
+    width: 950px;
+  }
+  .tools__features {
+    padding-left: 300px !important;
+  }
+  .monstera__text {
+    left: 55px;
+  }
+  .monstera__features {
+    left: 82px;
+  }
+  .star-fall__features {
+    left: 80px;
+  }
+  .need-help__heading {
+    font-size: 30px !important;
+    line-height: 32px !important;
+    padding-bottom: 8px !important;
+  }
+  .need-help__text {
+    font-size: 20px !important;
+    padding-bottom: 14px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 832px;
+  }
+  header > div {
+    height: 80px;
+  }
+  header > div > svg {
+    padding-left: 0px;
+    width: 107px;
+    height: 25.8px;
+  }
+  header .header__right-side {
+    padding-right: 0;
+  }
+  header .header__right-side .list__li__first {
+    padding-right: 3px !important;
+  }
+  header .header__right-side li {
+    font-size: 13px;
+  }
+  header .header__right-side .list__li__first {
+    font-size: 11px;
+  }
+  header .header__right-side button {
+    height: 41.2px;
+    width: 142px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  .aperture-studios {
+    padding-top: 250px;
+  }
+  .aperture-studios__text {
+    padding-bottom: 35px;
+  }
+  .aperture-studios__text h1 {
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    padding-bottom: 4px;
+  }
+  .aperture-studios__features {
+    width: 690px;
+  }
+  .what-we-do {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  .what-we-do > div {
+    gap: 35px;
+  }
+  .what-we-do__heading p {
+    top: 0;
+  }
+  .what-we-do__blocks {
+    height: 866px;
+  }
+  .what-we-do__blocks > div {
+    width: 408px;
+    height: 425px;
+  }
+  .what-we-do__blocks .blocks__product p, .what-we-do__blocks .blocks__architecture p, .what-we-do__blocks .blocks__drone p, .what-we-do__blocks .blocks__wild-life p {
+    font-size: 11px;
+  }
+  .what-we-do__blocks .blocks__product .product__header, .what-we-do__blocks .blocks__product .architecture__header, .what-we-do__blocks .blocks__product .drone__header, .what-we-do__blocks .blocks__product .wild-life__header, .what-we-do__blocks .blocks__architecture .product__header, .what-we-do__blocks .blocks__architecture .architecture__header, .what-we-do__blocks .blocks__architecture .drone__header, .what-we-do__blocks .blocks__architecture .wild-life__header, .what-we-do__blocks .blocks__drone .product__header, .what-we-do__blocks .blocks__drone .architecture__header, .what-we-do__blocks .blocks__drone .drone__header, .what-we-do__blocks .blocks__drone .wild-life__header, .what-we-do__blocks .blocks__wild-life .product__header, .what-we-do__blocks .blocks__wild-life .architecture__header, .what-we-do__blocks .blocks__wild-life .drone__header, .what-we-do__blocks .blocks__wild-life .wild-life__header {
+    padding-bottom: 5px;
+  }
+  .what-we-do__blocks .blocks__product .product__paragraph, .what-we-do__blocks .blocks__architecture .product__paragraph, .what-we-do__blocks .blocks__drone .product__paragraph, .what-we-do__blocks .blocks__wild-life .product__paragraph {
+    padding-bottom: 12px;
+  }
+  .what-we-do__blocks .blocks__product button, .what-we-do__blocks .blocks__architecture button, .what-we-do__blocks .blocks__drone button, .what-we-do__blocks .blocks__wild-life button {
+    width: 120px;
+    height: 36.7px;
+    font-size: 12px;
+    padding-right: 12px;
+    letter-spacing: 0;
+  }
+  .what-we-do__blocks .blocks__product button svg, .what-we-do__blocks .blocks__architecture button svg, .what-we-do__blocks .blocks__drone button svg, .what-we-do__blocks .blocks__wild-life button svg {
+    width: 28px;
+    height: 28px;
+  }
+  .what-we-do__blocks .blocks__product > div, .what-we-do__blocks .blocks__architecture > div, .what-we-do__blocks .blocks__drone > div, .what-we-do__blocks .blocks__wild-life > div {
+    padding: 0 30px 15px 15px;
+  }
+  .sunset {
+    height: 450px;
+  }
+  .sunset > div {
+    height: 450px;
+  }
+  .sunset__text {
+    left: 20px;
+    width: 250px;
+    height: 450px;
+    font-size: 12px;
+  }
+  .sunset__text .text__heading {
+    font-size: 13px;
+    padding-bottom: 3px;
+  }
+  .sunset__features {
+    width: 750px;
+    top: -70px;
+    gap: 14px;
+  }
+  .sunset__features p {
+    font-size: 11px;
+    padding-left: 6px;
+    bottom: 4px;
+  }
+  .sunset__features .features__timing svg, .sunset__features .features__diaphragm svg {
+    width: 13px;
+    height: 13px;
+  }
+  .sunset__features .features__iso svg {
+    width: 26px;
+    height: 13px;
+  }
+  .sunset__features .features__place svg {
+    width: 8.1px;
+    height: 13px;
+  }
+  .tools {
+    height: 480px;
+  }
+  .tools .container {
+    height: 480px;
+  }
+  .tools .container .tools__text {
+    height: 480px !important;
+    width: 380px !important;
+    right: 15px !important;
+  }
+  .tools .container .tools__text p, .tools .container .tools__text h2 {
+    font-size: 12px !important;
+  }
+  .tools .container .tools__text .text__explanation {
+    letter-spacing: 1px !important;
+    padding-top: 0 !important;
+  }
+  .tools .container .tools__text .text__paragraph {
+    padding-bottom: 12px !important;
+    font-size: 11px !important;
+  }
+  .tools .container .tools__text button {
+    width: 144px;
+    height: 44px;
+    border-radius: 14px;
+    color: black;
+    align-self: center;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 5px 4px;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    border: #C0C0C0;
+    width: 150px !important;
+    height: 42.4px !important;
+    padding-right: 10px !important;
+    font-size: 15px !important;
+  }
+  .tools .container .tools__text .text__heading {
+    font-size: 24px !important;
+    padding-bottom: 5px !important;
+  }
+  .tools__right-side {
+    height: 480px;
+    bottom: 480px;
+  }
+  .tools__right-side .tools__features {
+    padding-left: 230px !important;
+    padding-bottom: 25px;
+    gap: 14px;
+  }
+  .tools__right-side .tools__features p {
+    font-size: 11px;
+    padding-left: 6px;
+    bottom: 4px;
+  }
+  .tools__right-side .tools__features .features__timing svg, .tools__right-side .tools__features .features__diaphragm svg {
+    width: 13px;
+    height: 13px;
+  }
+  .tools__right-side .tools__features .features__iso svg {
+    width: 26px;
+    height: 13px;
+  }
+  .tools__right-side .tools__features .features__place svg {
+    width: 8.1px;
+    height: 13px;
+  }
+  .monstera {
+    height: 450px;
+  }
+  .monstera > div {
+    height: 450px;
+  }
+  .monstera__text {
+    left: 45px;
+    height: 450px;
+  }
+  .monstera__features {
+    left: 45px;
+    gap: 14px;
+    bottom: 38px;
+  }
+  .monstera__features p {
+    font-size: 11px;
+    padding-left: 6px;
+    bottom: 4px;
+  }
+  .monstera__features .features__timing svg, .monstera__features .features__diaphragm svg {
+    width: 13px;
+    height: 13px;
+  }
+  .monstera__features .features__iso svg {
+    width: 26px;
+    height: 13px;
+  }
+  .monstera__features .features__place svg {
+    width: 8.1px;
+    height: 13px;
+  }
+  .past-clients > div {
+    padding: 80px 0 80px;
+  }
+  .past-clients > div .past-clients__text {
+    padding-bottom: 30px;
+  }
+  .past-clients > div .past-clients__text .text__heading {
+    font-size: 35px;
+    padding-bottom: 0;
+  }
+  .past-clients > div .past-clients__text .text__paragraph {
+    font-size: 20px;
+  }
+  .past-clients > div .past-clients__clients {
+    padding: 0 30px;
+    height: 130px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__first img {
+    width: 110px;
+    height: 25.8px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__second img {
+    width: 110px;
+    height: 67px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__third img {
+    width: 110px;
+    height: 17.2px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fourth img {
+    width: 110px;
+    height: 30.9px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fifth img {
+    width: 110px;
+    height: 27.5px;
+  }
+  .star-fall {
+    height: 450px;
+  }
+  .star-fall > div {
+    height: 450px;
+  }
+  .star-fall__text {
+    height: 450px;
+    left: 50px;
+  }
+  .star-fall__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .star-fall__features {
+    bottom: 48px;
+    left: 40px;
+    gap: 14px;
+  }
+  .star-fall__features p {
+    font-size: 11px;
+    padding-left: 6px;
+    bottom: 4px;
+  }
+  .star-fall__features .features__timing svg, .star-fall__features .features__diaphragm svg {
+    width: 13px;
+    height: 13px;
+  }
+  .star-fall__features .features__iso svg {
+    width: 26px;
+    height: 13px;
+  }
+  .star-fall__features .features__place svg {
+    width: 8.1px;
+    height: 13px;
+  }
+  .need-help > div > div {
+    padding: 85px 200px 80px;
+  }
+  .need-help > div > div .need-help__heading {
+    font-size: 28px !important;
+    line-height: 34px !important;
+    padding-bottom: 8px !important;
+  }
+  .need-help > div > div .need-help__text {
+    font-size: 20px !important;
+    padding-bottom: 14px !important;
+  }
+  .need-help > div > div button {
+    width: 140px;
+    height: 39.5px;
+    padding-right: 8px;
+    font-size: 14px;
+  }
+  footer > div > div {
+    padding: 50px 0;
+  }
+  footer > div > div .footer__aperture {
+    height: 170px;
+    padding-bottom: 20px;
+  }
+  footer > div > div .footer__aperture .aperture__text {
+    width: 350px;
+  }
+  footer > div > div .footer__aperture .aperture__text > svg {
+    width: 107px;
+    height: 25.8px;
+  }
+  footer > div > div .footer__aperture .aperture__text > p {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  footer > div > div .footer__aperture ul {
+    font-size: 12px;
+  }
+  footer > div > div .footer__aperture ul li {
+    padding-bottom: 5px;
+    line-height: auto;
+  }
+  footer > div > div .footer__aperture ul .list__item__first {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+  footer > div > div .footer__aperture ul .list__item__smaller {
+    font-size: 12px;
+  }
+  footer > div > div .footer__aperture .aperture__lists__first, footer > div > div .footer__aperture .aperture__lists__third {
+    width: 200px;
+  }
+  footer > div > div .footer__subscribe > div {
+    padding: 25px 0;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text {
+    font-size: 12px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text .text__heading {
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form {
+    width: 370px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form input {
+    height: 50px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form .submit {
+    width: 58px;
+    height: 27px;
+    right: 6px;
+    top: 50%;
+    margin-top: -15px;
+    border-radius: 11px;
+  }
+  footer > div > div .footer__socials {
+    padding-top: 40px;
+  }
+  footer > div > div .footer__socials > div p {
+    font-size: 12px;
+  }
+  footer > div > div .footer__socials .socials__icons {
+    gap: 18px;
+    padding-right: 0;
+  }
+  footer > div > div .footer__socials .socials__icons__first {
+    width: 20px;
+    height: 16.7px;
+  }
+  footer > div > div .footer__socials .socials__icons__second {
+    width: 20px;
+    height: 20px;
+  }
+  footer > div > div .footer__socials .socials__icons__third {
+    width: 10px;
+    height: 20px;
+  }
+  footer > div > div .footer__socials span {
+    font-size: 12px;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    max-width: 605px;
+  }
+  header > div {
+    height: 60px;
+  }
+  header > div > svg {
+    width: 80px;
+    height: 19.4px;
+  }
+  header .header__right-side {
+    gap: 15px;
+  }
+  header .header__right-side .list__li__first {
+    padding-top: 0 !important;
+  }
+  header .header__right-side li {
+    font-size: 10px;
+  }
+  header .header__right-side .right-side__list {
+    gap: 15px !important;
+  }
+  header .header__right-side .list__li__first {
+    font-size: 10px;
+  }
+  header .header__right-side button {
+    height: 28px;
+    width: 100px;
+    font-size: 11px;
+  }
+  .aperture-studios {
+    padding-top: 240px;
+    padding-bottom: 0;
+  }
+  .aperture-studios__text {
+    font-size: 10px;
+    padding: 0 0 35px;
+  }
+  .aperture-studios__text .text__explanation {
+    top: 4px;
+  }
+  .aperture-studios__text h1 {
+    font-size: 25px;
+    padding-bottom: 0;
+  }
+  .aperture-studios__text p {
+    padding: 0 105px;
+  }
+  .aperture-studios__features {
+    width: 500px;
+    gap: 11px;
+  }
+  .aperture-studios__features p {
+    font-size: 9px;
+    padding-left: 6px;
+    bottom: 2px;
+  }
+  .aperture-studios__features .features__timing svg, .aperture-studios__features .features__diaphragm svg {
+    width: 10px;
+    height: 10px;
+  }
+  .aperture-studios__features .features__iso svg {
+    width: 20px;
+    height: 10px;
+  }
+  .aperture-studios__features .features__place svg {
+    width: 6.3px;
+    height: 10px;
+  }
+  .what-we-do {
+    padding-bottom: 50px;
+  }
+  .what-we-do > div {
+    gap: 30px;
+  }
+  .what-we-do__heading h2 {
+    font-size: 27px;
+  }
+  .what-we-do__heading p {
+    font-size: 17px;
+  }
+  .what-we-do__blocks {
+    height: 648px;
+  }
+  .what-we-do__blocks > div {
+    width: 294px;
+    height: 315px;
+  }
+  .what-we-do__blocks .blocks__product p, .what-we-do__blocks .blocks__architecture p, .what-we-do__blocks .blocks__drone p, .what-we-do__blocks .blocks__wild-life p {
+    font-size: 8px;
+  }
+  .what-we-do__blocks .blocks__product .product__header, .what-we-do__blocks .blocks__product .architecture__header, .what-we-do__blocks .blocks__product .drone__header, .what-we-do__blocks .blocks__product .wild-life__header, .what-we-do__blocks .blocks__architecture .product__header, .what-we-do__blocks .blocks__architecture .architecture__header, .what-we-do__blocks .blocks__architecture .drone__header, .what-we-do__blocks .blocks__architecture .wild-life__header, .what-we-do__blocks .blocks__drone .product__header, .what-we-do__blocks .blocks__drone .architecture__header, .what-we-do__blocks .blocks__drone .drone__header, .what-we-do__blocks .blocks__drone .wild-life__header, .what-we-do__blocks .blocks__wild-life .product__header, .what-we-do__blocks .blocks__wild-life .architecture__header, .what-we-do__blocks .blocks__wild-life .drone__header, .what-we-do__blocks .blocks__wild-life .wild-life__header {
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+  }
+  .what-we-do__blocks .blocks__product .product__paragraph, .what-we-do__blocks .blocks__product .architecture__paragraph, .what-we-do__blocks .blocks__product .drone__paragraph, .what-we-do__blocks .blocks__product .wild-life__paragraph, .what-we-do__blocks .blocks__architecture .product__paragraph, .what-we-do__blocks .blocks__architecture .architecture__paragraph, .what-we-do__blocks .blocks__architecture .drone__paragraph, .what-we-do__blocks .blocks__architecture .wild-life__paragraph, .what-we-do__blocks .blocks__drone .product__paragraph, .what-we-do__blocks .blocks__drone .architecture__paragraph, .what-we-do__blocks .blocks__drone .drone__paragraph, .what-we-do__blocks .blocks__drone .wild-life__paragraph, .what-we-do__blocks .blocks__wild-life .product__paragraph, .what-we-do__blocks .blocks__wild-life .architecture__paragraph, .what-we-do__blocks .blocks__wild-life .drone__paragraph, .what-we-do__blocks .blocks__wild-life .wild-life__paragraph {
+    padding-bottom: 10;
+  }
+  .what-we-do__blocks .blocks__product button, .what-we-do__blocks .blocks__architecture button, .what-we-do__blocks .blocks__drone button, .what-we-do__blocks .blocks__wild-life button {
+    width: 85px;
+    height: 25px;
+    font-size: 9px;
+    padding-right: 7px;
+    border-radius: 9px;
+  }
+  .what-we-do__blocks .blocks__product button svg, .what-we-do__blocks .blocks__architecture button svg, .what-we-do__blocks .blocks__drone button svg, .what-we-do__blocks .blocks__wild-life button svg {
+    width: 18px;
+    height: 18px;
+  }
+  .what-we-do__blocks .blocks__product > div, .what-we-do__blocks .blocks__architecture > div, .what-we-do__blocks .blocks__drone > div, .what-we-do__blocks .blocks__wild-life > div {
+    padding: 0 30px 15px 15px;
+  }
+  .sunset {
+    height: 350px;
+  }
+  .sunset > div {
+    height: 350px;
+  }
+  .sunset__text {
+    left: 32px;
+    width: 170px;
+    height: 350px;
+    font-size: 10px;
+  }
+  .sunset__text .text__heading {
+    font-size: 11px;
+    padding-bottom: 2px;
+  }
+  .sunset__features {
+    width: 580px;
+    top: -35px;
+    gap: 11px;
+  }
+  .sunset__features p {
+    font-size: 9px;
+    padding-left: 6px;
+    bottom: 2px;
+  }
+  .sunset__features .features__timing svg, .sunset__features .features__diaphragm svg {
+    width: 10px;
+    height: 10px;
+  }
+  .sunset__features .features__iso svg {
+    width: 20px;
+    height: 10px;
+  }
+  .sunset__features .features__place svg {
+    width: 6.3px;
+    height: 10px;
+  }
+  .tools {
+    height: 400px;
+  }
+  .tools .container {
+    height: 400px;
+  }
+  .tools .container .tools__text {
+    height: 400px !important;
+    width: 280px !important;
+    right: 15px !important;
+  }
+  .tools .container .tools__text p, .tools .container .tools__text h2 {
+    font-size: 9px !important;
+  }
+  .tools .container .tools__text .text__explanation {
+    letter-spacing: 1px !important;
+  }
+  .tools .container .tools__text .text__paragraph {
+    padding-bottom: 12px !important;
+    font-size: 9px !important;
+  }
+  .tools .container .tools__text button {
+    width: 105px !important;
+    height: 29px !important;
+    padding-right: 11px !important;
+    font-size: 10px !important;
+  }
+  .tools .container .tools__text button svg {
+    width: 24px;
+    height: 24px;
+  }
+  .tools .container .tools__text .text__heading {
+    font-size: 19px !important;
+    padding-bottom: 4px !important;
+  }
+  .tools__right-side {
+    height: 400px;
+    bottom: 400px;
+  }
+  .tools__right-side .tools__features {
+    padding-left: 175px !important;
+    padding-bottom: 25px;
+    gap: 11px;
+  }
+  .tools__right-side .tools__features p {
+    font-size: 9px;
+    padding-left: 6px;
+    bottom: 2px;
+  }
+  .tools__right-side .tools__features .features__timing svg, .tools__right-side .tools__features .features__diaphragm svg {
+    width: 10px;
+    height: 10px;
+  }
+  .tools__right-side .tools__features .features__iso svg {
+    width: 20px;
+    height: 10px;
+  }
+  .tools__right-side .tools__features .features__place svg {
+    width: 6.3px;
+    height: 10px;
+  }
+  .monstera {
+    height: 400px;
+  }
+  .monstera > div {
+    height: 400px;
+  }
+  .monstera__text {
+    left: 5px;
+    width: 200px;
+    height: 400px;
+  }
+  .monstera__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .monstera__text p {
+    font-size: 10px;
+  }
+  .monstera__features {
+    left: 48px;
+    bottom: 30px;
+    gap: 11px;
+  }
+  .monstera__features p {
+    font-size: 9px;
+    padding-left: 6px;
+    bottom: 2px;
+  }
+  .monstera__features .features__timing svg, .monstera__features .features__diaphragm svg {
+    width: 10px;
+    height: 10px;
+  }
+  .monstera__features .features__iso svg {
+    width: 20px;
+    height: 10px;
+  }
+  .monstera__features .features__place svg {
+    width: 6.3px;
+    height: 10px;
+  }
+  .past-clients > div {
+    padding: 48px 0;
+  }
+  .past-clients > div .past-clients__text {
+    padding-bottom: 20px;
+  }
+  .past-clients > div .past-clients__text .text__heading {
+    font-size: 20px;
+  }
+  .past-clients > div .past-clients__text .text__paragraph {
+    font-size: 12px;
+  }
+  .past-clients > div .past-clients__clients {
+    padding: 0;
+    height: 100px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__first img {
+    width: 80px;
+    height: 18.8px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__second img {
+    width: 80px;
+    height: 48.7px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__third img {
+    width: 80px;
+    height: 12.5px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fourth img {
+    width: 80px;
+    height: 22.5px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fifth img {
+    width: 80px;
+    height: 20px;
+  }
+  .star-fall {
+    height: 330px;
+  }
+  .star-fall > div {
+    height: 330px;
+  }
+  .star-fall__text {
+    height: 330px;
+    left: 30px;
+    width: 200px;
+    font-size: 9px;
+  }
+  .star-fall__text > p {
+    padding-right: 27px;
+  }
+  .star-fall__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .star-fall__features {
+    bottom: 48px;
+    left: 40px;
+    gap: 11px;
+  }
+  .star-fall__features p {
+    font-size: 9px;
+    padding-left: 6px;
+    bottom: 2px;
+  }
+  .star-fall__features .features__timing svg, .star-fall__features .features__diaphragm svg {
+    width: 10px;
+    height: 10px;
+  }
+  .star-fall__features .features__iso svg {
+    width: 20px;
+    height: 10px;
+  }
+  .star-fall__features .features__place svg {
+    width: 6.3px;
+    height: 10px;
+  }
+  .need-help > div > div {
+    padding: 50px 80px;
+  }
+  .need-help > div > div .need-help__heading {
+    font-size: 18px !important;
+    line-height: 18px !important;
+    padding-bottom: 5px !important;
+  }
+  .need-help > div > div .need-help__text {
+    font-size: 13px !important;
+    padding-bottom: 9px !important;
+  }
+  .need-help > div > div button {
+    width: 115px;
+    height: 32px;
+    padding-right: 7px;
+    font-size: 12px;
+    border-radius: 11px;
+    letter-spacing: 0;
+  }
+  .need-help > div > div button svg {
+    width: 25px;
+    height: 25px;
+  }
+  footer > div > div {
+    padding: 30px 0;
+  }
+  footer > div > div .footer__aperture {
+    height: 130px;
+    padding-bottom: 0;
+  }
+  footer > div > div .footer__aperture .aperture__text {
+    width: 290px;
+  }
+  footer > div > div .footer__aperture .aperture__text > svg {
+    width: 80px;
+    height: 19.4px;
+  }
+  footer > div > div .footer__aperture .aperture__text > p {
+    padding-top: 7px;
+    font-size: 9px;
+  }
+  footer > div > div .footer__aperture ul {
+    font-size: 9px;
+  }
+  footer > div > div .footer__aperture ul li {
+    padding-bottom: 2px;
+    line-height: 14px;
+  }
+  footer > div > div .footer__aperture ul .list__item__first {
+    font-size: 9px;
+  }
+  footer > div > div .footer__aperture ul .list__item__smaller {
+    font-size: 9px;
+  }
+  footer > div > div .footer__aperture .aperture__lists__first, footer > div > div .footer__aperture .aperture__lists__third {
+    width: 110px;
+  }
+  footer > div > div .footer__subscribe > div {
+    padding: 17px 0;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text {
+    font-size: 9px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text .text__heading {
+    letter-spacing: 1px;
+    font-size: 10px;
+    padding-bottom: 8px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form {
+    width: 270px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form input {
+    height: 30px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form .submit {
+    width: 39px;
+    height: 19px;
+    right: 6px;
+    top: 68%;
+    margin-top: -15px;
+    border-radius: 11px;
+  }
+  footer > div > div .footer__socials {
+    padding-top: 28px;
+  }
+  footer > div > div .footer__socials > div p {
+    font-size: 9px;
+  }
+  footer > div > div .footer__socials .socials__icons {
+    gap: 12px;
+  }
+  footer > div > div .footer__socials .socials__icons__first svg {
+    width: 17px;
+    height: 14.2px;
+  }
+  footer > div > div .footer__socials .socials__icons__second svg {
+    width: 17px;
+    height: 17px;
+  }
+  footer > div > div .footer__socials .socials__icons__third svg {
+    width: 8.5px;
+    height: 17px;
+  }
+  footer > div > div .footer__socials span {
+    font-size: 9px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 468px;
+  }
+  header > div {
+    height: 45px;
+  }
+  header > div > svg {
+    width: 75px;
+    height: 18.2px;
+    padding-left: 25px;
+  }
+  header .burger {
+    width: 21px;
+    height: 21px;
+    display: block;
+    padding-right: 25px;
+  }
+  header .header__right-side {
+    display: none;
+  }
+  .aperture-studios {
+    padding-top: 157px;
+  }
+  .aperture-studios__text {
+    font-size: 8px;
+    padding: 0 0 20px;
+    width: 468px;
+  }
+  .aperture-studios__text .text__explanation {
+    top: 4px;
+  }
+  .aperture-studios__text h1 {
+    font-size: 15px;
+  }
+  .aperture-studios__text p {
+    padding: 0 70px;
+  }
+  .aperture-studios__features {
+    width: 320px;
+    gap: 8px;
+  }
+  .aperture-studios__features p {
+    font-size: 6px;
+    padding-left: 4px;
+    bottom: 2px;
+  }
+  .aperture-studios__features .features__timing svg, .aperture-studios__features .features__diaphragm svg {
+    width: 8px;
+    height: 8px;
+  }
+  .aperture-studios__features .features__iso svg {
+    width: 16px;
+    height: 8px;
+  }
+  .aperture-studios__features .features__place svg {
+    width: 5px;
+    height: 8px;
+  }
+  .what-we-do {
+    padding-bottom: 30px;
+  }
+  .what-we-do > div {
+    gap: 20px;
+  }
+  .what-we-do__heading h2 {
+    font-size: 19px;
+  }
+  .what-we-do__heading p {
+    font-size: 12px;
+  }
+  .what-we-do__blocks {
+    height: 544px;
+  }
+  .what-we-do__blocks > div {
+    width: 230px;
+    height: 268px;
+  }
+  .what-we-do__blocks .blocks__drone, .what-we-do__blocks .blocks__wild-life {
+    margin-top: 8px;
+  }
+  .what-we-do__blocks .blocks__product p, .what-we-do__blocks .blocks__architecture p, .what-we-do__blocks .blocks__drone p, .what-we-do__blocks .blocks__wild-life p {
+    font-size: 6px;
+  }
+  .what-we-do__blocks .blocks__product .product__header, .what-we-do__blocks .blocks__product .architecture__header, .what-we-do__blocks .blocks__product .drone__header, .what-we-do__blocks .blocks__product .wild-life__header, .what-we-do__blocks .blocks__architecture .product__header, .what-we-do__blocks .blocks__architecture .architecture__header, .what-we-do__blocks .blocks__architecture .drone__header, .what-we-do__blocks .blocks__architecture .wild-life__header, .what-we-do__blocks .blocks__drone .product__header, .what-we-do__blocks .blocks__drone .architecture__header, .what-we-do__blocks .blocks__drone .drone__header, .what-we-do__blocks .blocks__drone .wild-life__header, .what-we-do__blocks .blocks__wild-life .product__header, .what-we-do__blocks .blocks__wild-life .architecture__header, .what-we-do__blocks .blocks__wild-life .drone__header, .what-we-do__blocks .blocks__wild-life .wild-life__header {
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+  }
+  .what-we-do__blocks .blocks__product .product__paragraph, .what-we-do__blocks .blocks__product .architecture__paragraph, .what-we-do__blocks .blocks__product .drone__paragraph, .what-we-do__blocks .blocks__product .wild-life__paragraph, .what-we-do__blocks .blocks__architecture .product__paragraph, .what-we-do__blocks .blocks__architecture .architecture__paragraph, .what-we-do__blocks .blocks__architecture .drone__paragraph, .what-we-do__blocks .blocks__architecture .wild-life__paragraph, .what-we-do__blocks .blocks__drone .product__paragraph, .what-we-do__blocks .blocks__drone .architecture__paragraph, .what-we-do__blocks .blocks__drone .drone__paragraph, .what-we-do__blocks .blocks__drone .wild-life__paragraph, .what-we-do__blocks .blocks__wild-life .product__paragraph, .what-we-do__blocks .blocks__wild-life .architecture__paragraph, .what-we-do__blocks .blocks__wild-life .drone__paragraph, .what-we-do__blocks .blocks__wild-life .wild-life__paragraph {
+    padding-bottom: 10;
+  }
+  .what-we-do__blocks .blocks__product button, .what-we-do__blocks .blocks__architecture button, .what-we-do__blocks .blocks__drone button, .what-we-do__blocks .blocks__wild-life button {
+    width: 65px;
+    height: 16px;
+    font-size: 7px;
+    padding-right: 5px;
+    border-radius: 7px;
+    padding-bottom: 4px;
+  }
+  .what-we-do__blocks .blocks__product button svg, .what-we-do__blocks .blocks__architecture button svg, .what-we-do__blocks .blocks__drone button svg, .what-we-do__blocks .blocks__wild-life button svg {
+    width: 12px;
+    height: 12px;
+  }
+  .what-we-do__blocks .blocks__product > div, .what-we-do__blocks .blocks__architecture > div, .what-we-do__blocks .blocks__drone > div, .what-we-do__blocks .blocks__wild-life > div {
+    padding: 0 30px 15px 15px;
+  }
+  .sunset {
+    height: 280px;
+  }
+  .sunset > div {
+    height: 280px;
+  }
+  .sunset__text {
+    left: 30px;
+    width: 160px;
+    height: 280px;
+    font-size: 8px;
+  }
+  .sunset__text .text__heading {
+    font-size: 9px;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+  }
+  .sunset__features {
+    width: 410px;
+    top: -29px;
+    gap: 8px;
+  }
+  .sunset__features p {
+    font-size: 6px;
+    padding-left: 4px;
+    bottom: 2px;
+  }
+  .sunset__features .features__timing svg, .sunset__features .features__diaphragm svg {
+    width: 8px;
+    height: 8px;
+  }
+  .sunset__features .features__iso svg {
+    width: 16px;
+    height: 8px;
+  }
+  .sunset__features .features__place svg {
+    width: 5px;
+    height: 8px;
+  }
+  .tools {
+    height: 325px;
+  }
+  .tools .container {
+    height: 325px;
+  }
+  .tools .container .tools__text {
+    height: 325px !important;
+    width: 240px !important;
+    right: 15px !important;
+  }
+  .tools .container .tools__text p, .tools .container .tools__text h2 {
+    font-size: 8px !important;
+  }
+  .tools .container .tools__text .text__explanation {
+    letter-spacing: 1px !important;
+  }
+  .tools .container .tools__text .text__paragraph {
+    padding-bottom: 8px !important;
+    font-size: 8px !important;
+  }
+  .tools .container .tools__text button {
+    width: 85px !important;
+    height: 25px !important;
+    padding-right: 6px !important;
+    font-size: 8px !important;
+    border-radius: 9px !important;
+  }
+  .tools .container .tools__text button svg {
+    width: 19px;
+    height: 19px;
+  }
+  .tools .container .tools__text .text__heading {
+    font-size: 13px !important;
+    padding-bottom: 4px !important;
+  }
+  .tools__right-side {
+    height: 325px;
+    bottom: 325px;
+  }
+  .tools__right-side .tools__features {
+    padding-left: 135px !important;
+    padding-bottom: 15px;
+    gap: 8px;
+  }
+  .tools__right-side .tools__features p {
+    font-size: 6px;
+    padding-left: 4px;
+    bottom: 2px;
+  }
+  .tools__right-side .tools__features .features__timing svg, .tools__right-side .tools__features .features__diaphragm svg {
+    width: 8px;
+    height: 8px;
+  }
+  .tools__right-side .tools__features .features__iso svg {
+    width: 16px;
+    height: 8px;
+  }
+  .tools__right-side .tools__features .features__place svg {
+    width: 5px;
+    height: 8px;
+  }
+  .monstera {
+    height: 260px;
+  }
+  .monstera > div {
+    height: 260px;
+  }
+  .monstera__text {
+    left: 25px;
+    width: 180px;
+    height: 260px;
+  }
+  .monstera__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .monstera__text p {
+    font-size: 8px;
+  }
+  .monstera__features {
+    left: 40px;
+    bottom: 30px;
+    gap: 8px;
+  }
+  .monstera__features p {
+    font-size: 6px;
+    padding-left: 4px;
+    bottom: 2px;
+  }
+  .monstera__features .features__timing svg, .monstera__features .features__diaphragm svg {
+    width: 8px;
+    height: 8px;
+  }
+  .monstera__features .features__iso svg {
+    width: 16px;
+    height: 8px;
+  }
+  .monstera__features .features__place svg {
+    width: 5px;
+    height: 8px;
+  }
+  .past-clients > div {
+    padding: 30px 0;
+  }
+  .past-clients > div .past-clients__text {
+    padding-bottom: 0;
+  }
+  .past-clients > div .past-clients__text .text__heading {
+    font-size: 12px;
+  }
+  .past-clients > div .past-clients__text .text__paragraph {
+    font-size: 9px;
+  }
+  .past-clients > div .past-clients__clients {
+    height: 80px;
+    padding: 0 30px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__first img {
+    width: 60px;
+    height: 13px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__second img {
+    width: 60px;
+    height: 36.6px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__third img {
+    width: 60px;
+    height: 9.4px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fourth img {
+    width: 60px;
+    height: 16.9px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fifth img {
+    width: 60px;
+    height: 15px;
+  }
+  .star-fall {
+    height: 260px;
+  }
+  .star-fall > div {
+    height: 260px;
+  }
+  .star-fall__text {
+    height: 260px;
+    left: 30px;
+    width: 180px;
+    font-size: 8px;
+  }
+  .star-fall__text > p {
+    padding-right: 27px;
+  }
+  .star-fall__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .star-fall__features {
+    bottom: 23px;
+    left: 40px;
+    gap: 8px;
+  }
+  .star-fall__features p {
+    font-size: 6px;
+    padding-left: 4px;
+    bottom: 2px;
+  }
+  .star-fall__features .features__timing svg, .star-fall__features .features__diaphragm svg {
+    width: 8px;
+    height: 8px;
+  }
+  .star-fall__features .features__iso svg {
+    width: 16px;
+    height: 8px;
+  }
+  .star-fall__features .features__place svg {
+    width: 5px;
+    height: 8px;
+  }
+  .need-help > div > div {
+    padding: 30px 60px;
+  }
+  .need-help > div > div .need-help__heading {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    padding-bottom: 3px !important;
+  }
+  .need-help > div > div .need-help__text {
+    font-size: 9px !important;
+    padding-bottom: 4px !important;
+  }
+  .need-help > div > div button {
+    width: 90px;
+    height: 20px;
+    padding-right: 7px;
+    font-size: 9px;
+    border-radius: 8px;
+    letter-spacing: 0;
+  }
+  .need-help > div > div button svg {
+    width: 16px;
+    height: 16px;
+  }
+  footer > div > div {
+    padding: 15px 0;
+  }
+  footer > div > div .footer__aperture {
+    height: 105px;
+    border-bottom: 1px solid white;
+  }
+  footer > div > div .footer__aperture .aperture__text {
+    width: 200px;
+  }
+  footer > div > div .footer__aperture .aperture__text > svg {
+    width: 75px;
+    height: 18.2px;
+  }
+  footer > div > div .footer__aperture .aperture__text > p {
+    padding-top: 4px;
+    font-size: 7px;
+  }
+  footer > div > div .footer__aperture ul {
+    font-size: 7px;
+  }
+  footer > div > div .footer__aperture ul li {
+    padding-bottom: 2px;
+    line-height: 11px;
+  }
+  footer > div > div .footer__aperture ul .list__item__first {
+    font-size: 7px;
+  }
+  footer > div > div .footer__aperture ul .list__item__smaller {
+    font-size: 7px;
+  }
+  footer > div > div .footer__aperture .aperture__lists__first, footer > div > div .footer__aperture .aperture__lists__third {
+    width: 90px;
+  }
+  footer > div > div .footer__subscribe > div {
+    padding: 12px 0;
+    border-bottom: 1px solid white;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text {
+    font-size: 7px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text .text__heading {
+    letter-spacing: 1px;
+    font-size: 8px;
+    padding-bottom: 5px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form {
+    width: 220px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form input {
+    height: 26px;
+    border-radius: 9px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form .submit {
+    width: 30px;
+    height: 15px;
+    right: 6px;
+    top: 78%;
+    margin-top: -15px;
+    border-radius: 6px;
+  }
+  footer > div > div .footer__socials {
+    padding-top: 17px;
+  }
+  footer > div > div .footer__socials > div p {
+    font-size: 7px;
+  }
+  footer > div > div .footer__socials .socials__icons {
+    gap: 8px;
+  }
+  footer > div > div .footer__socials .socials__icons__first svg {
+    width: 13px;
+    height: 10.8px;
+  }
+  footer > div > div .footer__socials .socials__icons__second svg {
+    width: 13px;
+    height: 13px;
+  }
+  footer > div > div .footer__socials .socials__icons__third svg {
+    width: 6.5px;
+    height: 13px;
+  }
+  footer > div > div .footer__socials span {
+    font-size: 7px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 351px;
+  }
+  header > div {
+    height: 30px;
+  }
+  header > div > svg {
+    width: 50px;
+    height: 12.1px;
+    padding-left: 30px;
+  }
+  header .burger {
+    width: 15px;
+    height: 15px;
+    padding-right: 30px;
+  }
+  .aperture-studios {
+    padding-top: 120px;
+  }
+  .aperture-studios__text {
+    font-size: 6px;
+    padding: 0 0 20px;
+    width: 351px;
+  }
+  .aperture-studios__text .text__explanation {
+    top: 0;
+  }
+  .aperture-studios__text h1 {
+    font-size: 10px;
+  }
+  .aperture-studios__text p {
+    padding: 0 40px;
+  }
+  .aperture-studios__features {
+    width: 210px;
+    gap: 8px;
+  }
+  .aperture-studios__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .aperture-studios__features .features__timing svg, .aperture-studios__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .aperture-studios__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .aperture-studios__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .what-we-do {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .what-we-do > div {
+    gap: 15px;
+  }
+  .what-we-do__heading h2 {
+    font-size: 11px;
+  }
+  .what-we-do__heading p {
+    font-size: 9px;
+  }
+  .what-we-do__blocks {
+    height: 448px;
+  }
+  .what-we-do__blocks > div {
+    width: 171px;
+    height: 220px;
+  }
+  .what-we-do__blocks .blocks__drone, .what-we-do__blocks .blocks__wild-life {
+    margin-top: 8px;
+  }
+  .what-we-do__blocks .blocks__product p, .what-we-do__blocks .blocks__architecture p, .what-we-do__blocks .blocks__drone p, .what-we-do__blocks .blocks__wild-life p {
+    font-size: 5px;
+  }
+  .what-we-do__blocks .blocks__product .product__header, .what-we-do__blocks .blocks__product .architecture__header, .what-we-do__blocks .blocks__product .drone__header, .what-we-do__blocks .blocks__product .wild-life__header, .what-we-do__blocks .blocks__architecture .product__header, .what-we-do__blocks .blocks__architecture .architecture__header, .what-we-do__blocks .blocks__architecture .drone__header, .what-we-do__blocks .blocks__architecture .wild-life__header, .what-we-do__blocks .blocks__drone .product__header, .what-we-do__blocks .blocks__drone .architecture__header, .what-we-do__blocks .blocks__drone .drone__header, .what-we-do__blocks .blocks__drone .wild-life__header, .what-we-do__blocks .blocks__wild-life .product__header, .what-we-do__blocks .blocks__wild-life .architecture__header, .what-we-do__blocks .blocks__wild-life .drone__header, .what-we-do__blocks .blocks__wild-life .wild-life__header {
+    padding-bottom: 1px;
+    letter-spacing: 1px;
+  }
+  .what-we-do__blocks .blocks__product .product__paragraph, .what-we-do__blocks .blocks__product .architecture__paragraph, .what-we-do__blocks .blocks__product .drone__paragraph, .what-we-do__blocks .blocks__product .wild-life__paragraph, .what-we-do__blocks .blocks__architecture .product__paragraph, .what-we-do__blocks .blocks__architecture .architecture__paragraph, .what-we-do__blocks .blocks__architecture .drone__paragraph, .what-we-do__blocks .blocks__architecture .wild-life__paragraph, .what-we-do__blocks .blocks__drone .product__paragraph, .what-we-do__blocks .blocks__drone .architecture__paragraph, .what-we-do__blocks .blocks__drone .drone__paragraph, .what-we-do__blocks .blocks__drone .wild-life__paragraph, .what-we-do__blocks .blocks__wild-life .product__paragraph, .what-we-do__blocks .blocks__wild-life .architecture__paragraph, .what-we-do__blocks .blocks__wild-life .drone__paragraph, .what-we-do__blocks .blocks__wild-life .wild-life__paragraph {
+    padding-bottom: 5;
+  }
+  .what-we-do__blocks .blocks__product button, .what-we-do__blocks .blocks__architecture button, .what-we-do__blocks .blocks__drone button, .what-we-do__blocks .blocks__wild-life button {
+    width: 65px;
+    height: 16px;
+    font-size: 7px;
+    padding-right: 6px;
+    border-radius: 5px;
+    padding-bottom: 4px;
+  }
+  .what-we-do__blocks .blocks__product button svg, .what-we-do__blocks .blocks__architecture button svg, .what-we-do__blocks .blocks__drone button svg, .what-we-do__blocks .blocks__wild-life button svg {
+    width: 12px;
+    height: 12px;
+  }
+  .what-we-do__blocks .blocks__product > div, .what-we-do__blocks .blocks__architecture > div, .what-we-do__blocks .blocks__drone > div, .what-we-do__blocks .blocks__wild-life > div {
+    padding: 0 10px 10px;
+  }
+  .sunset {
+    height: 200px;
+  }
+  .sunset > div {
+    height: 200px;
+  }
+  .sunset__text {
+    left: 30px;
+    width: 140px;
+    height: 200px;
+    font-size: 6px;
+  }
+  .sunset__text .text__heading {
+    font-size: 7px;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+  }
+  .sunset__features {
+    width: 280px;
+    top: -20px;
+    gap: 8px;
+  }
+  .sunset__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .sunset__features .features__timing svg, .sunset__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .sunset__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .sunset__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .tools {
+    height: 240px;
+  }
+  .tools .container {
+    height: 240px;
+  }
+  .tools .container .tools__text {
+    height: 240px !important;
+    width: 170px !important;
+    right: 15px !important;
+  }
+  .tools .container .tools__text p, .tools .container .tools__text h2 {
+    font-size: 6px !important;
+  }
+  .tools .container .tools__text .text__explanation {
+    letter-spacing: 1px !important;
+  }
+  .tools .container .tools__text .text__paragraph {
+    padding-bottom: 6px !important;
+    font-size: 6px !important;
+  }
+  .tools .container .tools__text button {
+    width: 65px !important;
+    height: 18px !important;
+    padding-right: 4px !important;
+    font-size: 6px !important;
+    border-radius: 7px !important;
+  }
+  .tools .container .tools__text button svg {
+    width: 14px;
+    height: 14px;
+  }
+  .tools .container .tools__text .text__heading {
+    font-size: 12px !important;
+    padding-bottom: 2px !important;
+  }
+  .tools__right-side {
+    height: 240px;
+    bottom: 240px;
+  }
+  .tools__right-side .tools__features {
+    padding-left: 105px !important;
+    padding-bottom: 10px;
+    gap: 8px;
+  }
+  .tools__right-side .tools__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .tools__right-side .tools__features .features__timing svg, .tools__right-side .tools__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .tools__right-side .tools__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .tools__right-side .tools__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .monstera {
+    height: 165px;
+  }
+  .monstera > div {
+    height: 165px;
+  }
+  .monstera__text {
+    left: 30px;
+    width: 160px;
+    height: 165px;
+  }
+  .monstera__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .monstera__text p {
+    font-size: 6px;
+  }
+  .monstera__features {
+    left: 20px;
+    bottom: 15px;
+    gap: 8px;
+  }
+  .monstera__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .monstera__features .features__timing svg, .monstera__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .monstera__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .monstera__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .past-clients > div {
+    padding: 20px 0;
+  }
+  .past-clients > div .past-clients__text .text__heading {
+    font-size: 10px;
+  }
+  .past-clients > div .past-clients__text .text__paragraph {
+    font-size: 7px;
+  }
+  .past-clients > div .past-clients__clients {
+    height: 65px;
+    padding: 0 20px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__first img {
+    width: 45px;
+    height: 9.8px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__second img {
+    width: 45px;
+    height: 27.4px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__third img {
+    width: 45px;
+    height: 7px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fourth img {
+    width: 45px;
+    height: 12.7px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fifth img {
+    width: 45px;
+    height: 11.3px;
+  }
+  .star-fall {
+    height: 170px;
+  }
+  .star-fall > div {
+    height: 170px;
+  }
+  .star-fall__text {
+    height: 170px;
+    left: 30px;
+    width: 160px;
+    font-size: 6px;
+  }
+  .star-fall__text > p {
+    padding-right: 27px;
+  }
+  .star-fall__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .star-fall__features {
+    bottom: 15px;
+    left: 30px;
+    gap: 8px;
+  }
+  .star-fall__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .star-fall__features .features__timing svg, .star-fall__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .star-fall__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .star-fall__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .need-help > div > div {
+    padding: 20px 40px;
+  }
+  .need-help > div > div .need-help__heading {
+    font-size: 10px !important;
+    line-height: 12px !important;
+    padding-bottom: 3px !important;
+  }
+  .need-help > div > div .need-help__text {
+    font-size: 7px !important;
+    padding-bottom: 4px !important;
+  }
+  .need-help > div > div button {
+    width: 55px;
+    height: 15px;
+    padding-right: 3px;
+    font-size: 5.5px;
+    border-radius: 5px;
+    letter-spacing: 0;
+  }
+  .need-help > div > div button svg {
+    width: 11px;
+    height: 11px;
+  }
+  footer > div > div {
+    padding: 10px 0;
+  }
+  footer > div > div .footer__aperture {
+    height: 72px;
+    border-bottom: 1px solid white;
+  }
+  footer > div > div .footer__aperture .aperture__text {
+    width: 170px;
+  }
+  footer > div > div .footer__aperture .aperture__text > svg {
+    width: 50px;
+    height: 12.1px;
+  }
+  footer > div > div .footer__aperture .aperture__text > p {
+    padding-top: 4px;
+    font-size: 5px;
+  }
+  footer > div > div .footer__aperture ul {
+    font-size: 5px;
+  }
+  footer > div > div .footer__aperture ul li {
+    padding-bottom: 2px;
+    line-height: 7px;
+  }
+  footer > div > div .footer__aperture ul .list__item__first {
+    font-size: 5px;
+  }
+  footer > div > div .footer__aperture ul .list__item__smaller {
+    font-size: 5px;
+  }
+  footer > div > div .footer__aperture .aperture__lists__first, footer > div > div .footer__aperture .aperture__lists__third {
+    width: 70px;
+  }
+  footer > div > div .footer__subscribe > div {
+    padding: 9px 0;
+    border-bottom: 1px solid white;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text {
+    font-size: 5px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text .text__heading {
+    letter-spacing: 1px;
+    font-size: 6px;
+    padding-bottom: 4px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form {
+    width: 170px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form input {
+    height: 19px;
+    border-radius: 7px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form .submit {
+    width: 22px;
+    height: 11px;
+    right: 4px;
+    top: 97%;
+    margin-top: -15px;
+    border-radius: 5px;
+    border: #000;
+  }
+  footer > div > div .footer__socials {
+    padding-top: 11px;
+  }
+  footer > div > div .footer__socials > div p {
+    font-size: 5px;
+  }
+  footer > div > div .footer__socials .socials__icons {
+    gap: 6px;
+  }
+  footer > div > div .footer__socials .socials__icons__first {
+    width: 8px;
+    height: 6.7px;
+  }
+  footer > div > div .footer__socials .socials__icons__first svg {
+    width: 8px;
+    height: 6.7px;
+  }
+  footer > div > div .footer__socials .socials__icons__second {
+    width: 8px;
+    height: 8px;
+  }
+  footer > div > div .footer__socials .socials__icons__second svg {
+    width: 8px;
+    height: 8px;
+  }
+  footer > div > div .footer__socials .socials__icons__third {
+    width: 4px;
+    height: 8px;
+  }
+  footer > div > div .footer__socials .socials__icons__third svg {
+    width: 4px;
+    height: 8px;
+  }
+  footer > div > div .footer__socials span {
+    font-size: 5px;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    max-width: 351px;
+  }
+  header > div {
+    height: 22px;
+  }
+  header > div > svg {
+    width: 50px;
+    height: 12.1px;
+    padding-left: 30px;
+  }
+  header .burger {
+    width: 15px;
+    height: 15px;
+    padding-right: 30px;
+  }
+  .aperture-studios {
+    padding-top: 85px;
+  }
+  .aperture-studios__text {
+    font-size: 6px;
+    padding: 0 0 15px;
+    width: 300px;
+  }
+  .aperture-studios__text .text__explanation {
+    letter-spacing: 1px;
+  }
+  .aperture-studios__text h1 {
+    font-size: 10px;
+  }
+  .aperture-studios__text p {
+    padding: 0 65px;
+  }
+  .aperture-studios__text p span {
+    display: none;
+  }
+  .aperture-studios__features {
+    width: 110px;
+    gap: 8px;
+    padding-right: 10px;
+  }
+  .aperture-studios__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .aperture-studios__features .features__timing svg, .aperture-studios__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .aperture-studios__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .aperture-studios__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .what-we-do {
+    padding-bottom: 0;
+    padding-top: 30px;
+  }
+  .what-we-do > div {
+    gap: 15px;
+  }
+  .what-we-do__heading h2 {
+    font-size: 11px;
+  }
+  .what-we-do__heading p {
+    font-size: 9px;
+  }
+  .what-we-do__blocks {
+    height: 532px;
+    justify-content: center;
+  }
+  .what-we-do__blocks > div {
+    width: 230px;
+    height: 250px;
+  }
+  .what-we-do__blocks .blocks__drone, .what-we-do__blocks .blocks__wild-life {
+    display: none;
+  }
+  .what-we-do__blocks .blocks__drone, .what-we-do__blocks .blocks__wild-life {
+    margin-top: 8px;
+  }
+  .what-we-do__blocks .blocks__product p, .what-we-do__blocks .blocks__architecture p, .what-we-do__blocks .blocks__drone p, .what-we-do__blocks .blocks__wild-life p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .what-we-do__blocks .blocks__product p span, .what-we-do__blocks .blocks__architecture p span, .what-we-do__blocks .blocks__drone p span, .what-we-do__blocks .blocks__wild-life p span {
+    display: none;
+  }
+  .what-we-do__blocks .blocks__product .product__header, .what-we-do__blocks .blocks__product .architecture__header, .what-we-do__blocks .blocks__product .drone__header, .what-we-do__blocks .blocks__product .wild-life__header, .what-we-do__blocks .blocks__architecture .product__header, .what-we-do__blocks .blocks__architecture .architecture__header, .what-we-do__blocks .blocks__architecture .drone__header, .what-we-do__blocks .blocks__architecture .wild-life__header, .what-we-do__blocks .blocks__drone .product__header, .what-we-do__blocks .blocks__drone .architecture__header, .what-we-do__blocks .blocks__drone .drone__header, .what-we-do__blocks .blocks__drone .wild-life__header, .what-we-do__blocks .blocks__wild-life .product__header, .what-we-do__blocks .blocks__wild-life .architecture__header, .what-we-do__blocks .blocks__wild-life .drone__header, .what-we-do__blocks .blocks__wild-life .wild-life__header {
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+  }
+  .what-we-do__blocks .blocks__product .product__paragraph, .what-we-do__blocks .blocks__product .architecture__paragraph, .what-we-do__blocks .blocks__product .drone__paragraph, .what-we-do__blocks .blocks__product .wild-life__paragraph, .what-we-do__blocks .blocks__architecture .product__paragraph, .what-we-do__blocks .blocks__architecture .architecture__paragraph, .what-we-do__blocks .blocks__architecture .drone__paragraph, .what-we-do__blocks .blocks__architecture .wild-life__paragraph, .what-we-do__blocks .blocks__drone .product__paragraph, .what-we-do__blocks .blocks__drone .architecture__paragraph, .what-we-do__blocks .blocks__drone .drone__paragraph, .what-we-do__blocks .blocks__drone .wild-life__paragraph, .what-we-do__blocks .blocks__wild-life .product__paragraph, .what-we-do__blocks .blocks__wild-life .architecture__paragraph, .what-we-do__blocks .blocks__wild-life .drone__paragraph, .what-we-do__blocks .blocks__wild-life .wild-life__paragraph {
+    padding-bottom: 6px;
+  }
+  .what-we-do__blocks .blocks__product button, .what-we-do__blocks .blocks__architecture button, .what-we-do__blocks .blocks__drone button, .what-we-do__blocks .blocks__wild-life button {
+    width: 85px;
+    height: 23px;
+    font-size: 9px;
+    padding-right: 7px;
+    border-radius: 9px;
+  }
+  .what-we-do__blocks .blocks__product button svg, .what-we-do__blocks .blocks__architecture button svg, .what-we-do__blocks .blocks__drone button svg, .what-we-do__blocks .blocks__wild-life button svg {
+    width: 18px;
+    height: 18px;
+  }
+  .what-we-do__blocks .blocks__product > div, .what-we-do__blocks .blocks__architecture > div, .what-we-do__blocks .blocks__drone > div, .what-we-do__blocks .blocks__wild-life > div {
+    padding: 0 30px 15px 15px;
+  }
+  .sunset {
+    height: 140px;
+  }
+  .sunset > div {
+    height: 140px;
+  }
+  .sunset__text {
+    left: 0;
+    width: 120px;
+    height: 140px;
+    font-size: 5px;
+    line-height: 8px;
+  }
+  .sunset__text .text__heading {
+    font-size: 6px;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+  }
+  .sunset__features {
+    width: 220px;
+    top: -20px;
+    gap: 8px;
+  }
+  .sunset__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .sunset__features .features__timing svg, .sunset__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .sunset__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .sunset__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .tools {
+    height: 190px;
+  }
+  .tools .container {
+    height: 190px;
+  }
+  .tools .container .tools__text {
+    height: 190px !important;
+    width: 130px !important;
+    right: 0 !important;
+    left: 15px;
+  }
+  .tools .container .tools__text p, .tools .container .tools__text h2 {
+    font-size: 6px !important;
+  }
+  .tools .container .tools__text p span, .tools .container .tools__text h2 span {
+    display: none;
+  }
+  .tools .container .tools__text .text__explanation {
+    letter-spacing: 0 !important;
+  }
+  .tools .container .tools__text .text__paragraph {
+    padding-bottom: 6px !important;
+    font-size: 6px !important;
+    width: 100px;
+  }
+  .tools .container .tools__text button {
+    width: 55px !important;
+    height: 15px !important;
+    padding-right: 3px !important;
+    font-size: 5px !important;
+    border-radius: 7px !important;
+  }
+  .tools .container .tools__text button svg {
+    width: 10px;
+    height: 10px;
+  }
+  .tools .container .tools__text .text__heading {
+    font-size: 11px !important;
+    padding-bottom: 0 !important;
+  }
+  .tools__right-side {
+    height: 190px;
+    bottom: 190px;
+  }
+  .tools__right-side .tools__features {
+    padding-left: 50px !important;
+    padding-bottom: 10px;
+    gap: 8px;
+  }
+  .tools__right-side .tools__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .tools__right-side .tools__features .features__timing svg, .tools__right-side .tools__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .tools__right-side .tools__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .tools__right-side .tools__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .monstera {
+    height: 150px;
+  }
+  .monstera > div {
+    height: 150px;
+  }
+  .monstera__text {
+    left: 0;
+    width: 130px;
+    height: 150px;
+  }
+  .monstera__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .monstera__text p {
+    font-size: 6px;
+    padding-right: 20px;
+  }
+  .monstera__features {
+    left: 0;
+    bottom: 15px;
+    gap: 8px;
+  }
+  .monstera__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .monstera__features .features__timing svg, .monstera__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .monstera__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .monstera__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  .past-clients > div {
+    padding: 20px 0;
+  }
+  .past-clients > div .past-clients__text .text__heading {
+    font-size: 10px;
+  }
+  .past-clients > div .past-clients__text .text__paragraph {
+    font-size: 7px;
+  }
+  .past-clients > div .past-clients__clients {
+    height: 70px;
+    padding: 0 40px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__first img {
+    width: 45px;
+    height: 9.8px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__second img {
+    width: 45px;
+    height: 27.4px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__third img {
+    width: 45px;
+    height: 7px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fourth img {
+    width: 45px;
+    height: 12.7px;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fifth {
+    display: none;
+  }
+  .past-clients > div .past-clients__clients .past-clients__fifth img {
+    width: 45px;
+    height: 11.3px;
+  }
+  .star-fall {
+    height: 130px;
+  }
+  .star-fall > div {
+    height: 130px;
+  }
+  .star-fall__text {
+    height: 130px;
+    left: 0;
+    width: 130px;
+    font-size: 5px;
+  }
+  .star-fall__text > p {
+    padding-right: 10px;
+  }
+  .star-fall__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .star-fall__features {
+    bottom: 15px;
+    left: 0;
+    gap: 8px;
+    padding-right: 10px;
+  }
+  .star-fall__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .star-fall__features .features__timing svg, .star-fall__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .star-fall__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .star-fall__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+  footer > div > div {
+    padding: 10px 20px;
+  }
+  footer > div > div .footer__aperture {
+    flex-wrap: wrap;
+    height: 102px;
+    border-bottom: 1px solid white;
+  }
+  footer > div > div .footer__aperture .aperture__text {
+    width: 350px;
+    text-align: center;
+  }
+  footer > div > div .footer__aperture .aperture__text > svg {
+    width: 50px;
+    height: 12.1px;
+  }
+  footer > div > div .footer__aperture .aperture__text > p {
+    padding-top: 4px;
+    font-size: 5px;
+    padding-bottom: 5px;
+  }
+  footer > div > div .footer__aperture .aperture__lists {
+    width: 350px;
+    justify-content: space-around;
+  }
+  footer > div > div .footer__aperture ul {
+    font-size: 5px;
+  }
+  footer > div > div .footer__aperture ul li {
+    padding-bottom: 2px;
+    line-height: 6px;
+  }
+  footer > div > div .footer__aperture ul .list__item__first {
+    font-size: 5px;
+  }
+  footer > div > div .footer__aperture ul .list__item__smaller {
+    font-size: 5px;
+  }
+  footer > div > div .footer__aperture .aperture__lists__first, footer > div > div .footer__aperture .aperture__lists__third {
+    width: 70px;
+  }
+  footer > div > div .footer__subscribe > div {
+    padding: 9px 0;
+    border-bottom: 1px solid white;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text {
+    font-size: 5px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__text .text__heading {
+    letter-spacing: 1px;
+    font-size: 6px;
+    padding-bottom: 4px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form {
+    width: 170px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form input {
+    height: 19px;
+    border-radius: 7px;
+  }
+  footer > div > div .footer__subscribe > div .subscribe__form .submit {
+    width: 22px;
+    height: 11px;
+    right: 4px;
+    top: 97%;
+    margin-top: -15px;
+    border-radius: 5px;
+    border: #000;
+  }
+  footer > div > div .footer__socials {
+    padding-top: 11px;
+  }
+  footer > div > div .footer__socials > div p {
+    font-size: 5px;
+  }
+  footer > div > div .footer__socials .socials__icons {
+    gap: 6px;
+  }
+  footer > div > div .footer__socials .socials__icons__first {
+    width: 8px;
+    height: 6.7px;
+  }
+  footer > div > div .footer__socials .socials__icons__first svg {
+    width: 8px;
+    height: 6.7px;
+  }
+  footer > div > div .footer__socials .socials__icons__second {
+    width: 8px;
+    height: 8px;
+  }
+  footer > div > div .footer__socials .socials__icons__second svg {
+    width: 8px;
+    height: 8px;
+  }
+  footer > div > div .footer__socials .socials__icons__third {
+    width: 4px;
+    height: 8px;
+  }
+  footer > div > div .footer__socials .socials__icons__third svg {
+    width: 4px;
+    height: 8px;
+  }
+  footer > div > div .footer__socials span {
+    font-size: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+  .what-we-do {
+    padding-bottom: 0;
+    padding-top: 30px;
+  }
+  .what-we-do > div {
+    gap: 15px;
+  }
+  .what-we-do__heading h2 {
+    font-size: 11px;
+  }
+  .what-we-do__heading p {
+    font-size: 9px;
+  }
+  .what-we-do__blocks {
+    height: 446px;
+    justify-content: center;
+  }
+  .what-we-do__blocks > div {
+    width: 190px;
+    height: 207px;
+  }
+  .what-we-do__blocks .blocks__drone, .what-we-do__blocks .blocks__wild-life {
+    display: none;
+  }
+  .what-we-do__blocks .blocks__drone, .what-we-do__blocks .blocks__wild-life {
+    margin-top: 8px;
+  }
+  .what-we-do__blocks .blocks__product p, .what-we-do__blocks .blocks__architecture p, .what-we-do__blocks .blocks__drone p, .what-we-do__blocks .blocks__wild-life p {
+    font-size: 6px;
+  }
+  .what-we-do__blocks .blocks__product .product__header, .what-we-do__blocks .blocks__product .architecture__header, .what-we-do__blocks .blocks__product .drone__header, .what-we-do__blocks .blocks__product .wild-life__header, .what-we-do__blocks .blocks__architecture .product__header, .what-we-do__blocks .blocks__architecture .architecture__header, .what-we-do__blocks .blocks__architecture .drone__header, .what-we-do__blocks .blocks__architecture .wild-life__header, .what-we-do__blocks .blocks__drone .product__header, .what-we-do__blocks .blocks__drone .architecture__header, .what-we-do__blocks .blocks__drone .drone__header, .what-we-do__blocks .blocks__drone .wild-life__header, .what-we-do__blocks .blocks__wild-life .product__header, .what-we-do__blocks .blocks__wild-life .architecture__header, .what-we-do__blocks .blocks__wild-life .drone__header, .what-we-do__blocks .blocks__wild-life .wild-life__header {
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+  }
+  .what-we-do__blocks .blocks__product .product__paragraph, .what-we-do__blocks .blocks__product .architecture__paragraph, .what-we-do__blocks .blocks__product .drone__paragraph, .what-we-do__blocks .blocks__product .wild-life__paragraph, .what-we-do__blocks .blocks__architecture .product__paragraph, .what-we-do__blocks .blocks__architecture .architecture__paragraph, .what-we-do__blocks .blocks__architecture .drone__paragraph, .what-we-do__blocks .blocks__architecture .wild-life__paragraph, .what-we-do__blocks .blocks__drone .product__paragraph, .what-we-do__blocks .blocks__drone .architecture__paragraph, .what-we-do__blocks .blocks__drone .drone__paragraph, .what-we-do__blocks .blocks__drone .wild-life__paragraph, .what-we-do__blocks .blocks__wild-life .product__paragraph, .what-we-do__blocks .blocks__wild-life .architecture__paragraph, .what-we-do__blocks .blocks__wild-life .drone__paragraph, .what-we-do__blocks .blocks__wild-life .wild-life__paragraph {
+    padding-bottom: 10;
+  }
+  .what-we-do__blocks .blocks__product button, .what-we-do__blocks .blocks__architecture button, .what-we-do__blocks .blocks__drone button, .what-we-do__blocks .blocks__wild-life button {
+    width: 65px;
+    height: 16px;
+    font-size: 7px;
+    padding-right: 5px;
+    border-radius: 7px;
+    padding-bottom: 4px;
+  }
+  .what-we-do__blocks .blocks__product button svg, .what-we-do__blocks .blocks__architecture button svg, .what-we-do__blocks .blocks__drone button svg, .what-we-do__blocks .blocks__wild-life button svg {
+    width: 12px;
+    height: 12px;
+  }
+  .what-we-do__blocks .blocks__product > div, .what-we-do__blocks .blocks__architecture > div, .what-we-do__blocks .blocks__drone > div, .what-we-do__blocks .blocks__wild-life > div {
+    padding: 0 30px 15px 15px;
+  }
+  .monstera {
+    height: 150px;
+  }
+  .monstera > div {
+    height: 150px;
+  }
+  .monstera__text {
+    left: 0;
+    width: 140px;
+    height: 150px;
+  }
+  .monstera__text .text__heading {
+    letter-spacing: 1px;
+  }
+  .monstera__text p {
+    font-size: 6px;
+    padding-right: 30px;
+  }
+  .monstera__features {
+    left: 0;
+    bottom: 15px;
+    padding-right: 10px;
+    gap: 8px;
+  }
+  .monstera__features p {
+    font-size: 4px;
+    padding-left: 3px;
+    bottom: 0.5px;
+  }
+  .monstera__features .features__timing svg, .monstera__features .features__diaphragm svg {
+    width: 6px;
+    height: 6px;
+  }
+  .monstera__features .features__iso svg {
+    width: 12px;
+    height: 6px;
+  }
+  .monstera__features .features__place svg {
+    width: 3.8px;
+    height: 6px;
+  }
+}/*# sourceMappingURL=style.css.map */
